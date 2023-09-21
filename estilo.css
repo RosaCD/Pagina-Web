@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(218, 172, 218);
+    color: black;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav ul{
+    background-color: rgb(238, 217, 248);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: dotted;
+    color: rgb(116, 115, 114);
+    padding: 5px;
+    width: 200px;
+}
+img{
+    width: 230px;
+    height: 230px;
+    border-radius: 5%;
+    object-fit: over;
+}
+.contenido {
+    display: flex;
+    margin: 40px;
+}
+.articulos{
+    width: 85%
+}
+.secciones{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+h2{
+    color: blueviolet;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.lado{
+    width: 20%;
+    margin: 20px;
+}
+.lado a{
+    display: block;
+    text-align: center;
+    margin-bottom: 35px;
+    color: rgb(139, 0, 93);
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(179, 150, 233);
+}
+footer ul{
+    width: 120%;
+    height: 45px;
+    list-style-type: none;
+    text-align: center;
+}
+footer li{
+    display: inline-flex;
+    color: rgb(69, 17, 99);
+    padding: 10px;
+    width: 200px;
+    margin-top: 5px;
+}
+footer p{
+    text-align: center;
+    color: rgb(69, 17, 99);
+}
